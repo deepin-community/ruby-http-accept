@@ -1,0 +1,11 @@
+ruby-http-accept (1.7.0-2) unstable; urgency=medium
+
+  * New upload to allow migration of NEW package
+
+ -- Lucas Nussbaum <lucas@debian.org>  Tue, 19 Jan 2021 22:19:54 +0100
+
+ruby-http-accept (1.7.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Lucas Nussbaum <lucas@debian.org>  Mon, 11 Jan 2021 22:56:42 +0100

@@ -1,0 +1,23 @@
+Source: ruby-http-accept
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Nussbaum <lucas@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               gem2deb (>= 1)
+Standards-Version: 4.5.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-http-accept.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-http-accept
+Homepage: https://github.com/ioquatix/http-accept
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+Rules-Requires-Root: no
+
+Package: ruby-http-accept
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${misc:Depends},
+         ${ruby:Depends},
+         ${shlibs:Depends}
+Description: Ruby parser for Accept and Accept-Language HTTP headers
+ A Ruby library to parse Accept and Accept-Language HTTP headers
